@@ -1,0 +1,8 @@
+termcolor
+colorama
+requests
+bs4
+html5lib
+phonenumbers
+argparse
+urllib3
