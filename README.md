@@ -35,6 +35,7 @@ Join Telegram Group for help and Feedback.
 git clone https://github.com/AbirHasan2005/OPRecon
 cd OPRecon
 python3 -m pip install -r requirements.txt
+chmod +x *
 bash run.sh
 ```
 
