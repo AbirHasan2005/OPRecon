@@ -25,7 +25,7 @@ class color:
    FAIL = '\033[91m'
 
 class config:
-	key = "2dfa8e4851add96619e675427cdb72f1" #go to https://numverify.com/
+	key = "2dfa8e4851add96619e675427cdb72f1" #go to https://numverify.com/ and sign up if if get error. This API token is mine so after 100 use of this token this tool will not work. So you have to wait for next update or ask at my Telegram Group: http://t.me/linux_repo
 
 def banner():
 	os.system('clear')
