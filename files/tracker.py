@@ -47,11 +47,12 @@ def main():
 		output = requests.get(api)
 		content = output.text
 		obj = json.loads(content)
-		country_code = obj['country_code']
-		country_name = obj['country_name']
-		location = obj['location']
-		carrier = obj['carrier']
-		line_type = obj['line_type']
+		country_code = obj.get('country_code', 'Unknown')
+		country_name = obj.get('country_name', 'Unknown')
+		location = obj.get('location', 'Unknown')
+		carrier = obj.get('carrier', 'Unknown')
+		line_type = obj.get('line_type', 'Unknown')
+
 
 		print (color.BLUE + "[+] " + color.END + "Phone number information gathering")
 		print ("--------------------------------------")
